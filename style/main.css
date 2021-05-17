@@ -43,15 +43,47 @@ header nav{
     
 }
 
-header nav a{
+.btn{
+    text-decoration: none;
+    color: #aaa;
+    margin-right: 20px;
+    width: 100%;
+}
+
+.btn:hover{
+    color: #fff;
+}
+
+.btn-active{
     text-decoration: none;
     color: #fff;
     margin-right: 20px;
     width: 100%;
 }
 
-header nav a:hover{
-    color: #aaa;
+.search {
+    margin-left: 400px;
+    width: 300px;
+}
+
+.search input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 80%;
+    background: var(--preta);
+    border-right: none;
+}
+  
+  .search button {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background:var(--preta);
+    color: white;
+    border: 1px solid #ccc;
+    border-left: none;
+    cursor: pointer;
 }
 
 header .container{
@@ -67,27 +99,22 @@ header .container{
     font-size: 16px;
     background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('/img/filme-principal.jpg');
     background-size: cover;
-    height: 620px;
+    height: 610px;
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-     
-
 }
 
 .logo-filme-principal{
     width: 500px;
-    
-    
 }
 
 .filme-principal .descricao-filme-principal{
     margin-top: 10px;
     margin-bottom: 40px;
      
-
 }
 
 .filme-principal .botao{
@@ -149,13 +176,17 @@ header .container{
 }
 
 .carrosel-filmes{
-    margin-top: 10px;
+    margin-top: 50px;
 }
 
 .titulo{
-    margin-top: 10px;
-    margin-left: 15px;
+ 
+    margin-left: 20px;
+    margin-bottom: 15px;
     color: white;
     font-size: 20px;
 }
 
+footer{
+    margin-top: 50px
+}

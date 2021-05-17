@@ -21,7 +21,8 @@ $('.owl-carousel').owlCarousel({
     stagePadding: 50,
     loop:true,
     margin:10,
-    nav:true,
+    nav:false,
+    dots:false,
     responsive:{
         0:{
             items:1
@@ -30,7 +31,20 @@ $('.owl-carousel').owlCarousel({
             items:3
         },
         1000:{
-            items:5
+            items:4
         }
     }
 })
+
+
+/*
+$(".category-wrapper").owlCarousel({
+    items : 4,
+    loop  : true,
+    margin : 30,
+    nav    : true,
+    smartSpeed :900,
+    navText : ["<i class='fa fa-chevron-left'></i>","<i class='fa fa-chevron-right'></i>"]
+  });
+
+*/
