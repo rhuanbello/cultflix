@@ -22,6 +22,17 @@ body {
 
 /* HEADER */
 
+header .container{
+    display: flex;
+    align-items: center;
+}
+
+header nav{
+    margin-left: 3%;
+    width: 340px;
+    
+}
+
 .logo-cultflix{
     width: 200px;
     height: 100px;
@@ -34,13 +45,6 @@ body {
 
 .logo {
     width: 100%;
-}
-
-
-header nav{
-    margin-left: 3%;
-    width: 340px;
-    
 }
 
 .btn{
@@ -61,36 +65,40 @@ header nav{
     width: 100%;
 }
 
-.search {
-    margin-left: 400px;
-    width: 300px;
-}
-
-.search input {
-    padding: 10px;
-    border: 1px solid #ccc;
-    float: left;
-    width: 80%;
-    background: var(--preta);
-    border-right: none;
-}
-  
-  .search button {
-    float: left;
-    width: 20%;
-    padding: 10px;
-    background:var(--preta);
-    color: white;
-    border: 1px solid #ccc;
-    border-left: none;
-    cursor: pointer;
-}
-
-header .container{
+.barra-de-pesquisa{
     display: flex;
-    flex-direction: row;
+    justify-content: space-between;
     align-items: center;
-   
+    width: auto;
+    height: auto;
+    background-color: var(--preta);
+    padding: 7px 10px;
+    border-radius: 5px;
+    margin-left: 600px;
+    border: 0.5px solid rgba(255, 255, 255, 0.171);
+    border-radius: 1px;
+}
+
+input {
+    color: #ccc;
+    font-family: Netflix-sans;
+    background-color: var(--preta);
+    border: none;
+    outline: none;
+    width: 0px;
+    transition: all .4s linear;
+    padding: 5px;
+    width: 200px;
+}
+
+label {
+    color: white;
+    padding: 0px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all .1s linear;
+    background-color: #141414;
+
 }
 
 /* FILME PRINCIPAL */
@@ -114,7 +122,6 @@ header .container{
 .filme-principal .descricao-filme-principal{
     margin-top: 10px;
     margin-bottom: 40px;
-     
 }
 
 .filme-principal .botao{
@@ -126,6 +133,7 @@ header .container{
     margin-right: 15px; 
     font-size: 19px; 
     cursor: pointer; 
+    font-family: Netflix-sans;
 }
 
 .filme-principal .botao2{
@@ -137,6 +145,8 @@ header .container{
     margin-right: 15px; 
     font-size: 19px; 
     cursor: pointer; 
+    font-family: Netflix-sans;
+
 }
 
 
@@ -180,7 +190,6 @@ header .container{
 }
 
 .titulo{
- 
     margin-left: 20px;
     margin-bottom: 15px;
     color: white;

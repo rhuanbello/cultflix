@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="/style/responsive.css">
     <link rel="stylesheet" href="/style/owl/owl.carousel.min.css">
     <link rel="stylesheet" href="/style/owl/owl.theme.default.min.css">
+    <link rel="icon" href="/img/icona.png">
     <title>Cultflix</title>
 </head>
 <body>
@@ -21,14 +22,18 @@
                 <a href="#" class="btn">Séries</a>
                 <a href="#" class="btn">Documentários</a>
             </nav>
-            <div class="search">
-                <input type="text" placeholder="Pesquise títulos..." name="searchbar">
-                <button type="submit"><i class="fa fa-search"></i></button>
+            <div class="barra-de-pesquisa"> <!-- Barra de Pesquisa -->
+                <input type="text" name="searchbar" placeholder="Pesquise títulos...">
+                <input id="btn-search" type="submit" name="searchbutton" style="display: none;">
+                <label for="btn-search">
+                    <i class="fas fa-search"></i>
+                </label>
               </div>
         </div>
     </header>
     <main> <!-- Conteúdo Principal da Página -->
         <div class="filme-principal">
+            
             <div class="container">
                 <div class="logo-filme-principal">
                 <img src="img/logo-filme-principal.png" class="logo" alt="Blade Runner 2049">    
@@ -47,6 +52,7 @@
             </div>
         </div>
     </main>
+    <section>
     <!-- CARROSEL 1 -->
     <div class="carrosel-filmes">
         <h2 class="titulo">Clássicos Imperdíveis</h2>
@@ -167,6 +173,7 @@
                 </div>
             </div>
         </div>
+    </section>
     <footer>
     </footer>
     <script src="https://kit.fontawesome.com/fb4d127565.js"></script>
