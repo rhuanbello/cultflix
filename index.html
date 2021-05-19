@@ -14,11 +14,11 @@
     <header>
         <div class="container"> <!-- Container Principal da Parte Superior da Página -->
             <div class="logo-cultflix">
-            <img src="/img/logo-cultflix.png" class="logo" alt="Cultflix" srcset="">
+            <img src="/img/logo-cultflix.png" id="home" alt="Cultflix" srcset="">
             </div> <!-- Logo Cultflix -->
             <nav> <!-- Menu de Navegação -->
                 <a href="#" class="btn-active">Início</a>
-                <a href="#" class="btn">Filmes</a>
+                <a href="#titulo" class="btn">Filmes</a>
                 <a href="#" class="btn">Séries</a>
                 <a href="#" class="btn">Documentários</a>
             </nav>
@@ -32,14 +32,16 @@
         </div>
     </header>
     <main> <!-- Conteúdo Principal da Página -->
-        <div class="filme-principal">
-            
+        <div class="filme-principal"> 
             <div class="container">
+                <div class="logo-descricao">
                 <div class="logo-filme-principal">
                 <img src="img/logo-filme-principal.png" class="logo" alt="Blade Runner 2049">    
                 </div>
+                    <p class="dados-filme-principal">Ano de Lançamento: 2017</p>
                     <p class="descricao-filme-principal">Decorridos trinta anos após o filme original, a trama acompanha os passos de K, um replicante que trabalha como blade runner para a polícia de Los Angeles.
                     </p>
+                </div>
                     <div class="botoes">
                         <button role="button" class="botao">
                             <i class="fas fa-play"></i>
@@ -55,7 +57,7 @@
     <section>
     <!-- CARROSEL 1 -->
     <div class="carrosel-filmes">
-        <h2 class="titulo">Clássicos Imperdíveis</h2>
+        <h2 id="titulo">Clássicos Imperdíveis</h2>
         <div class="owl-carousel owl-theme">
             <div class="filme">
                 <img class="box-filme" src="/img/filme1.webp" alt="" srcset="">
@@ -85,7 +87,7 @@
     </div>
     <!-- CARROSEL 2 -->
     <div class="carrosel-filmes">
-        <h2 class="titulo">Coming of Age</h2>
+        <h2 class="titulo2">Coming of Age</h2>
         <div class="owl-carousel owl-theme">
             <div class="filme">
                 <img class="box-filme" src="/img/filme18.webp" alt="" srcset="">
@@ -115,7 +117,7 @@
     </div>
         <!-- CARROSEL 3 -->
         <div class="carrosel-filmes">
-            <h2 class="titulo">Post-Horror A24</h2>
+            <h2 class="titulo2">Post-Horror A24</h2>
             <div class="owl-carousel owl-theme">
                 <div class="filme">
                     <img class="box-filme" src="/img/filme15.webp" alt="" srcset="">
@@ -145,7 +147,7 @@
         </div>
          <!-- CARROSEL 4 -->
         <div class="carrosel-filmes">
-            <h2 class="titulo">Cultura Pop</h2>
+            <h2 class="titulo2">Cultura Pop</h2>
             <div class="owl-carousel owl-theme">
                 <div class="filme">
                     <img class="box-filme" src="/img/filme21.webp" alt="" srcset="">
@@ -173,6 +175,9 @@
                 </div>
             </div>
         </div>
+    <div>
+        <a class="topo" href="#home"><i class="fas fa-arrow-up"></i></a>
+    </div>
     </section>
     <footer>
     </footer>

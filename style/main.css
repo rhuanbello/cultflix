@@ -25,6 +25,8 @@ body {
 header .container{
     display: flex;
     align-items: center;
+   
+
 }
 
 header nav{
@@ -41,6 +43,10 @@ header nav{
     align-items: center;
     display: flex;
     margin-left: 5%;
+}
+
+#home{
+    width: 100%;
 }
 
 .logo {
@@ -67,14 +73,13 @@ header nav{
 
 .barra-de-pesquisa{
     display: flex;
-    justify-content: space-between;
     align-items: center;
     width: auto;
     height: auto;
     background-color: var(--preta);
     padding: 7px 10px;
     border-radius: 5px;
-    margin-left: 600px;
+    margin-left: 550px;
     border: 0.5px solid rgba(255, 255, 255, 0.171);
     border-radius: 1px;
 }
@@ -105,9 +110,9 @@ label {
 
 .filme-principal {
     font-size: 16px;
-    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('/img/filme-principal.jpg');
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('/img/filme-principal2.jpg');
     background-size: cover;
-    height: 610px;
+    height: 650px;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -116,7 +121,8 @@ label {
 }
 
 .logo-filme-principal{
-    width: 500px;
+    max-width: 800px;
+    width: 45%;
 }
 
 .filme-principal .descricao-filme-principal{
@@ -134,6 +140,7 @@ label {
     font-size: 19px; 
     cursor: pointer; 
     font-family: Netflix-sans;
+    letter-spacing: 1px;
 }
 
 .filme-principal .botao2{
@@ -146,9 +153,8 @@ label {
     font-size: 19px; 
     cursor: pointer; 
     font-family: Netflix-sans;
-
+    letter-spacing: 1px;
 }
-
 
 .botao:hover{ 
     background-color: rgba(0, 0, 0, 0.50);
@@ -168,9 +174,14 @@ label {
     margin-left: 20px;
 }
 
+.dados-filme-principal{
+    width: 44%;
+    color: rgb(224, 176, 71); 
+}
+
 .descricao-filme-principal {
     width: 44%;
-    color: white;
+    color: #fff;
     font-size: 20px;
 }
 
@@ -189,12 +200,40 @@ label {
     margin-top: 50px;
 }
 
-.titulo{
+#titulo{
     margin-left: 20px;
     margin-bottom: 15px;
     color: white;
     font-size: 20px;
+    letter-spacing: 1px;
 }
+
+.titulo2{
+    margin-left: 20px;
+    margin-bottom: 15px;
+    color: white;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+
+.topo{
+    background-color: var(--preta);
+    border-radius: 65px;
+    bottom: 15px;
+    box-shadow: 2px 3px 19px -2px rgb(0, 0, 0);
+    color: #ffffff;
+    cursor: pointer;
+    height: 40px;
+    position: fixed;
+    right: 20px;
+    width: 40px;
+    z-index: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+  }
 
 footer{
     margin-top: 50px
