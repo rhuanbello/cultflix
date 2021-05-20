@@ -1,6 +1,6 @@
 @font-face {
     font-family: Netflix-sans;
-    src: url(/style/font/NetflixSansRegular.ttf);
+    src: url('/style/font/NetflixSansRegular.ttf');
 }
 
 :root{ 
@@ -110,7 +110,7 @@ label {
 
 .filme-principal {
     font-size: 16px;
-    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('/img/filme-principal2.jpg');
+    background: -webkit-linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url(/img/filme-principal2.jpg);
     background-size: cover;
     height: 650px;
     width: 100%;
