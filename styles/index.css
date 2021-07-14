@@ -1,0 +1,92 @@
+body, html {
+    height: 100%;
+    width: 100%;
+    
+}
+
+.container {
+    background-image: url('../images/bg-welcome.svg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
+
+header {
+    width: 100%;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+}
+
+header .content.welcome {
+    padding: 2.5rem 0;    
+}
+
+section {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+section .content.welcome {
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    align-items: center;
+    padding-top: 10rem;
+}   
+
+section .welcome h1 {
+    font-size: 3.6rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    line-height: 2em;
+    letter-spacing: 0.18em;
+    text-align: center;
+    
+}
+
+section .welcome p {
+    font-size: 2.4rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 0.18em;
+    text-align: center;
+    padding-bottom: 4.3rem;
+}
+
+section .welcome a {
+    display: flex;
+    background-color: #fff;
+    padding: 0.9rem 17rem;
+    font-size: 1.8rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #000;
+    border-radius: .8rem;
+    align-items: center;
+    transition: .2s;
+    border: .2rem solid #fff;
+    transition: all .2s ease-in-out; 
+}
+
+section .welcome a i {
+    padding-left: 1rem;
+    
+}
+
+section .welcome a:hover {
+    transform: scale(1.1);
+    
+} 
+
+section .welcome-image {
+   cursor: pointer;
+   transition: .3s;
+}   
+
+section .welcome-image:hover {
+    transform: scale(1.1);
+}   
