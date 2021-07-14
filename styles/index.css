@@ -79,7 +79,8 @@ section .welcome a i {
 
 section .welcome a:hover {
     transform: scale(1.1);
-    
+    background-color: #fec63e;
+    border-color: #fec63e;
 } 
 
 section .welcome-image {

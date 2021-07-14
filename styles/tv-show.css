@@ -13,8 +13,9 @@ a, input {
 .container {
     background-image: url('../images/bg-movie.png');
     background-repeat: no-repeat;
-    width: 100%;
-    height: 100%;
+    background-size: cover;
+    max-width: 100%;
+    min-height: 100%;
 }
 
 header {

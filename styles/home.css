@@ -1,18 +1,29 @@
 body, html {
     height: 100%;
+    width: 100%;
     background-color: #07090F;
 }
 
 .container {
-    background-image: url('../images/bg-home.png');
+    background-image: url('../images/bg-home2.png');
     background-repeat: no-repeat;
-    height: 90%;
+    background-size: cover;
+    min-height: 100%;
+    width: 100%;
+}
+
+@media (max-width: 716px){
+    header .content.welcome .items {
+        display: block;
+    }
+ 
 }
 
 header {
     width: 100%;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 header .content.welcome {
@@ -36,7 +47,7 @@ header .content.welcome a {
     font-weight: 700;
     display: flex;
     align-items: center;
-    color: #000;
+    color: rgb(255, 255, 255);
     letter-spacing: 0.1em;
     transition: .5s;
 }
@@ -47,12 +58,13 @@ header .content.welcome a:nth-child(n+2){
 }
 
 header .content.welcome a:nth-child(n+2):hover {
-    color: #fff;
+    color: #FEC63E;
     transform: scale(1.1); 
 }
 
 header .content.welcome a i {
     padding-right: 0.5rem;
+    font-size: 1.6rem;
 }
 
 .search {
@@ -80,7 +92,7 @@ header .content.welcome a i {
     transition: all .5s ease-in-out;
     background: transparent;
     padding-right: 4rem;
-    color:#fff;
+    color:#FEC63E;
     font-family: 'Poppins';
 }
 
@@ -102,16 +114,17 @@ header .content.welcome a i {
     border-radius: 50%;
     position: absolute;
     right: 0px;
-    color:#ffffff ;
+    color:#FEC63E;
     background-color:transparent;
     pointer-events: painted;  
 }
+
 
 .btn-search:focus ~ .input-search{
     width: 300px;
     border-radius: 0px;
     background-color: transparent;
-    border-bottom:1px solid rgba(0, 0, 0, 0.5);
+    border-bottom:1px solid #fec63e;
     transition: all 500ms cubic-bezier(0, 0.110, 0.35, 2);
 }
 
@@ -124,10 +137,10 @@ header .content.welcome a i {
 }
 
 .profile {
-    background-color: rgb(53, 51, 51);
-    clip-path: circle();
-    background-image: url('../images/avatar.svg');
-    padding: 2.3rem;
+    background-image: url('../images/avatar2.svg');
+    background-size: cover;
+    width: 4.5rem;
+    height: 4.5rem;
     cursor: pointer;
     transition: all .2s ease-in-out; 
 }
@@ -145,7 +158,7 @@ section {
 }
 
 section .content.home {
-    padding-top: 20rem;
+    padding-top: 12rem;
 }
 
 section .description {
@@ -154,6 +167,8 @@ section .description {
 
 section .description img {
     display: block;
+    margin-bottom: 3rem;
+    max-width: 100%;
 }
 
 section .description p {
@@ -161,15 +176,11 @@ section .description p {
     color: #fff;
     font-size: 1.4rem;
     font-weight: 600;
-}
-
-section .description p:nth-child(2) {
-    margin-right: 5rem;
+    margin-right: 2rem;
 }
 
 section .description p:nth-child(3) {
-    margin-right: 2rem;
-    color: #1C9340;
+    color: #FEC63E;
 }
 
 section .actions {
@@ -193,11 +204,13 @@ section .actions a:nth-child(1) {
 
 section .actions a:nth-child(1):hover {
     transform: scale(1.1);
+    background-color: #FEC63E;
 }
 
 section .actions a:nth-child(2) {
     display: flex;
     transition: all .2s ease-in-out; 
+    
 }
 
 section .actions a:nth-child(2):hover {

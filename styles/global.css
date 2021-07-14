@@ -15,12 +15,26 @@ body {
     font-size: 1.4rem;
 }
 
+/* .carrossel-movie.content-home {
+   width: 90%;
+}
+
+.carrossel.home {
+   display: flex;
+   justify-content: flex-end;
+} */
+
 .content {
     width: 80%;
 }
 
-.carrossel {
+.carrossel.home{
     padding-bottom: 6rem;
+    padding-left: 15rem;
+}
+
+.carrossel.home p {
+    margin-left: 0;
 }
 
 .carrossel-movie p {
@@ -31,13 +45,22 @@ body {
     margin-left: 5rem;
 }
 
-.owl-carousel img {
+.owl-carousel a img {
     transition: all .2s ease-in-out; 
-    border-radius: .8rem;
-    border: .4rem solid #07090F;
+    border-radius: 1.2rem;
+    
 }
 
-.owl-carousel img:hover{
+.owl-carousel a img:hover{
     border: .4rem solid #fff;
-    border-radius: .8rem;
+}
+
+
+
+.carrossel.home .owl-stage{padding-left:0px !important;}
+
+
+header .content.welcome a i {
+    padding-right: 0.5rem;
+    font-size: 1.6rem;
 }
