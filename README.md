@@ -2,7 +2,7 @@
 
 Você pode visualizar o projeto [aqui.](https://rhuanbello.github.io/cultflix/)
 
-![Cultflix%207863363a2ece4d7a80fe3398001421f4/Untitled.png](Cultflix%207863363a2ece4d7a80fe3398001421f4/Untitled.png)
+![](https://i.imgur.com/szk6csI.png)
 
 ## 📖 Sobre
 
