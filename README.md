@@ -9,6 +9,7 @@ Você pode visualizar o projeto [aqui.](https://rhuanbello.github.io/cultflix/)
 Desafio proposto no Bootcamp HTML Web Developer, da Digital Innovation One.
 Cultflix é um projeto que nasce do meu amor pela sétima arte. 
 Inspirado nos maiores serviços de streaming.
+Pretendo continuar evoluindo este projeto conforme avanço nos meus estudos <3
 
 ---
 
